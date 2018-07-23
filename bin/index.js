@@ -8,7 +8,7 @@ const inquirer = require('inquirer');
 const chalk = require('chalk');
 const hidefile = require('hidefile');
 
-let version = '1.1.1'
+let version = '1.1.2'
 
 function save_load_boilerplate(src, dest) {
 	fse.copy(src, dest)
@@ -215,7 +215,7 @@ program
 
 	});
 program.on('command:*', function() {
-	console.error('\\n Invalid command: %s\nSee --help for a list of available commands.', program.args.join(' '));
+	console.error('\n  Invalid command: %s\n  See --help for a list of available commands.', program.args.join(' '));
 	process.exit(1);
 });
 
