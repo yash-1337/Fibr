@@ -1,6 +1,6 @@
 {
 	"name": "fibr",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"description": "An application that lets you save and load your custom boilerplates.",
 	"main": "index.js",
 	"preferGlobal": true,

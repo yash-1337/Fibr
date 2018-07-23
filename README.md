@@ -54,7 +54,7 @@ $ Fibr -h
 
 Fibr saves all the boilerplates to a hidden folder: 
 
-`%NODE_DIR%/node_modules/fibr/.boilerplates/`
+`%USER_HOME_DIR%/.boilerplates/`
 
 *Note: It is advised that you do not change the contents of the folder manually, and that you use the Fibr cli tool to save/load/update/delete boilerplates.*
 

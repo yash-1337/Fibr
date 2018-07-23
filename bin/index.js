@@ -9,7 +9,7 @@ const chalk = require('chalk');
 const hidefile = require('hidefile');
 const os = require('os');
 
-let version = '1.1.2'
+let version = '1.2.0'
 
 function save_load_boilerplate(src, dest) {
 	fse.copy(src, dest)
