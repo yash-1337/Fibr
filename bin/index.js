@@ -8,7 +8,7 @@ const inquirer = require('inquirer');
 const chalk = require('chalk');
 const hidefile = require('hidefile');
 
-let version = '1.1.0'
+let version = '1.1.1'
 
 function save_load_boilerplate(src, dest) {
 	fse.copy(src, dest)
