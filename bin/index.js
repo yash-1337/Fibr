@@ -7,6 +7,7 @@ const path = require('path');
 const inquirer = require('inquirer');
 const chalk = require('chalk');
 const hidefile = require('hidefile');
+const os = require('os');
 
 let version = '1.1.2'
 
@@ -20,7 +21,7 @@ function save_load_boilerplate(src, dest) {
 		})
 }
 
-let boilerplate_dir = path.resolve(__dirname, '../.boilerplates');
+let boilerplate_dir = path.resolve(os.homedir(), './.boilerplates');
 
 fse.ensureDir(boilerplate_dir)
 	.catch(err => {
